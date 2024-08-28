@@ -1,0 +1,2 @@
+# KNN
+KNN (K-Nearest Neighbors) é um algoritmo de aprendizado de máquina que classifica um objeto com base na proximidade de seus vizinhos mais próximos em um espaço 2D ou 3D. Ele funciona identificando os ‘k’ pontos de dados mais próximos do objeto a ser classificado e, em seguida, atribui a classe mais comum entre esses vizinhos ao objeto.
