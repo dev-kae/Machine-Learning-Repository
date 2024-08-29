@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  machinelearningrepository:
+    image: machinelearningrepository
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["sh", "-c", "pip install debugpy -t /tmp && python /tmp/debugpy --wait-for-client --listen 0.0.0.0:5678 machine learning from scratch/algorithms/knn.py "]
+    ports:
+      - 5678:5678

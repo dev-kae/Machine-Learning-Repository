@@ -7,7 +7,8 @@ def euclidean_distance(x1, x2):
 class KNN:
     def __init__(self, k=3):
         self.k = k
-        
+    #X_train espera um array 2D onde cada item tem uma cordenada x e y.
+    #Y_train são os resultados das classificações.
     def fit(self, X, y):
         self.X_train = X
         self.Y_train = y
