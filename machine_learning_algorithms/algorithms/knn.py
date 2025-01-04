@@ -5,6 +5,7 @@ def euclidean_distance(x1, x2):
     return np.sqrt(np.sum((x1-x2)) ** 2)
 
 class KNN:
+    #k é a quantidade de itens que usaremos para comparação.
     def __init__(self, k=3):
         self.k = k
     #X_train espera um array 2D onde cada item tem uma cordenada x e y.
